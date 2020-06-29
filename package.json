@@ -1,0 +1,22 @@
+{
+  "name": "rust-removal",
+  "version": "1.0.0",
+  "description": "tin man 2 terminator,",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/clarkjo12/rust-removal.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/clarkjo12/rust-removal/issues"
+  },
+  "homepage": "https://github.com/clarkjo12/rust-removal#readme",
+  "dependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
