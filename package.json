@@ -17,6 +17,10 @@
   },
   "homepage": "https://github.com/clarkjo12/rust-removal#readme",
   "dependencies": {
+    "path": "^0.12.7",
+    "uuid": "^8.2.0"
+  },
+  "devDependencies": {
     "nodemon": "^2.0.4"
   }
 }
