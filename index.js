@@ -1,7 +1,12 @@
-const Logger = require("./logger");
+const http = require("http");
+const path = require("path");
+const fs = require("fs");
+const { JSDOM } = require("jsdom");
+const { window } = new JSDOM("");
+const $ = require("jquery")(window);
 
-const logger = new Logger();
+const server = http.createServer((req, res) => {});
 
-logger.on("message", data => console.log("called Listeners: ", data));
+const PORT = process.env.PORT || 5000;
 
-logger.log("Hello World");
+server.listen(PORT, () => console.log("Server running on port + ${PORT}"));

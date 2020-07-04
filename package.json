@@ -18,12 +18,15 @@
   "homepage": "https://github.com/clarkjo12/rust-removal#readme",
   "dependencies": {
     "fs": "0.0.1-security",
+    "jquery": "^3.5.1",
+    "jsdom": "^16.2.2",
     "path": "^0.12.7",
     "url": "^0.11.0",
     "uuid": "^8.2.0"
   },
   "devDependencies": {
     "events": "^3.1.0",
+    "http": "0.0.1-security",
     "nodemon": "^2.0.4"
   }
 }
